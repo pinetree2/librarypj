@@ -1,0 +1,8 @@
+h1 {margin:5px;}
+.outer {
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="static/css/hello.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="jumbotron">
+    <h5 class="display-4">도서관 잔여 좌석 확인 사이트 입니다!</h5>
+    <p class="lead">도서관 좌석 정보를 확인해봅시다</p>
+    <hr class="my-4">
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="http://203.229.203.240/8080/Domian5_jythh.asp" role="button">도서관 링크</a>
+    </p>
+</div>
+
+
+
+<div style="padding:10px;" class="dropdown">
+
+    <h3>열람실선택</h3>
+    <select name='Room'>
+        <option value='' selected>-- 선택 --</option>
+        <option value='Num1A' id = 'room1A'>제 1 자유열람실 A</option>
+        <option value='Num1A' id = 'room1B'>제 1 자유열람실 B</option>
+        <option value='Num1A' id = 'room1C'>제 1 자유열람실 C</option>
+        <option value='Num1A' id = 'room1D'>제 1 자유열람실 D</option>
+        <option value='Num1A' id = 'roomDobby'>대학원 열람실</option>
+        <option value='Num1A' id = 'room2A'>제 2 자유열람실 A</option>
+        <option value='Num1A' id = 'room2B'>제 2 자유열람실 B</option>
+        <option value='Num1A' id = 'roomK'>제 1 자유열람실 A</option>
+    </select>
+
+
+
+</div>
+<div style="padding:10px;">
+
+
+    <div style="padding:10px;">
+        <h3>  추가 옵션</h3>
+        <input type="checkbox" id="notebook" name="notebook"
+        >
+        <label for="notebook">노트북 허용석</label>
+    </div>
+    <div style="padding:10px;">
+        <input type="checkbox" id="p-table" name="p-table">
+        <label for="p-table">평테이블</label>
+
+    </div>
+    <button name="button">결과 확인</button>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
